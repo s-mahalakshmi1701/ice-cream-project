@@ -1,0 +1,813 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+   
+}
+
+.front-page{
+    width: 100%;
+    height: 100vh;
+   
+}
+.nav-bar{
+    width: 100%;
+    height: 10vh;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: capitalize;
+
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+   
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    background: aqua;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    
+}
+  
+
+
+   
+   
+    
+
+
+
+nav{
+      
+}
+
+.first-page{
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+
+
+
+
+
+
+.dv-one{
+    width: 70%;
+    height: 70vh;
+    background: violet ;
+    border-radius: 100px;
+
+}
+
+.first-page h1{
+    font-size: 100px;
+}
+
+.icecream-photo{
+    width: 500px;
+    height: 500px;
+    background: blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 1000px;
+    margin-top: -90px;
+
+   
+
+
+}
+
+.icecream-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.second-page{
+    width:100%;
+    height: 110vh;
+    background: blue;
+   
+  
+}
+
+.second-page h1{
+    font-size: 100px;
+    color: red;
+    text-transform: capitalize;
+}
+
+.second-page p{
+    font-size: 40px;
+
+    
+}
+
+.second-page h1,p{
+    margin-left: 50PX;
+}
+
+.container{
+    width: 100%;
+    height:80vh;
+    background: pink;
+  
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+ 
+   
+
+   
+}
+
+.container-one{
+    width: 95%;
+    height: 70vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icecream-one{
+    width:30%;
+    height: 40vh;
+    background: yellow;
+  
+}
+
+.icecream-two{
+    width: 30%;
+    height: 70vh;
+    background: orange;
+}
+
+.icecream-three{
+    width: 30%;
+    height: 70vh;
+    background:  red;
+    margin-bottom: 400px;
+  
+   
+}
+
+.icecream-one img{
+    width: 100%;
+    height: 100%;
+}
+
+.icecream-two img{
+    width: 100%;
+    height: 100%;
+}
+
+.icecream-three img{
+    width: 100%;
+    height: 350px;
+    background-color: violet;
+}
+
+.icecream-three p{
+    font-size: 30px;
+}
+
+
+.third-page{
+    width: 100%;
+    height: 80vh;
+    
+  
+    display:flex;
+    align-items: center;
+    
+    
+
+   
+    
+}
+
+.content{
+    width:100%;
+    height: 80vh;
+   
+    display: flex;
+  
+}
+.content-one{
+    width: 50%;
+    height: 80vh;
+   
+ 
+    text-align: center;
+    
+   
+    
+    
+}
+
+.container-two{
+    width: 50%;
+    height: 80vh;
+    background: pink;
+}
+
+.photo-one{
+    width: 100%;
+    height: 80vh;
+    background: green;
+}
+
+.photo-one img{
+    width: 100%;
+    height:80vh;
+}
+
+.content-one h1,h2{
+    font-size: 110px;
+   
+   color: red;
+   margin-top: 100px;
+   text-transform: capitalize;
+}
+
+
+
+
+hr{
+    width: 500px;
+    border: 5px solid aqua;
+    border-radius: 20px;
+   
+    margin-left:150px;
+    margin-top: 70px;
+   
+  
+}
+
+.content-one h3{
+    font-size: 40px;
+    margin-top:70px;
+    text-transform: capitalize;
+    
+}
+
+.six-page{
+    width: 100%;
+    height: 100vh;
+   
+
+
+}
+
+.icecream-menu{
+    width: 100%;
+    height: 10vh;
+  
+}
+.icecream-menu h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+
+.container-three{
+    width: 100%;
+    height: 90vh;
+   
+    display: flex;
+   
+    align-items: center;
+
+
+   
+    
+}
+
+.container-four{
+    width:100%;
+    height:80vh;
+    flex-direction: column;
+    row-gap: 20px;
+    display: flex;
+  
+
+    
+   
+}
+
+.box-one{
+    width: 100%;
+    height: 40vh;
+  
+   
+  
+   
+    display: flex;
+   flex-direction: row;
+   column-gap: 20px;
+   
+}
+
+.box-two{
+    width: 100%;
+    height: 40vh;
+  
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+
+}
+
+.order-one{
+    width: 25%;
+    height: 40vh;
+    background: orange;
+    flex-direction: column;
+    row-gap: 20px;
+   
+}
+
+.order-one  img{
+    width: 100%;
+    height: 100%;
+}
+.order-two{
+    width: 25%;
+    height: 40vh;
+    background: red;
+}
+
+.order-two img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-three{
+    width: 25%;
+    height: 40vh;
+    background: green;
+}
+
+.order-three img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-four{
+    width: 25%;
+    height: 40vh;
+    background: blue;
+}
+
+.order-four img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-five{
+    width: 25%;
+    height: 40vh;
+    background:chartreuse;
+
+}
+
+.order-five img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-six{
+    width: 25%;
+    height: 40vh;
+    background: darkkhaki;
+}
+
+.order-six img{
+    width: 100%;
+    height: 100%;
+}
+
+.order-seven{
+    width: 25%;
+    height: 40vh;
+    background: fuchsia;
+}
+
+.order-seven img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.order-eight{
+    width: 25%;
+    height: 40vh;
+    background:aqua;
+}
+
+.order-eight img{
+    width: 100%;
+    height: 100%;
+}
+
+.seven-page{
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.user{
+    width: 100%;
+    height: 20vh;
+  
+}
+
+.user{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+
+.container-five{
+    width: 100%;
+    height: 80vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 80%;
+    height: 60vh;
+    background: violet;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 30px;
+    
+   
+    
+   
+   
+   
+}
+
+.square-one{
+    width: 30%;
+    height:60vh;
+ background: whitesmoke;
+  
+    margin-top: -150px;
+    border-radius: 40px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+   
+}
+
+
+
+.square-two{
+    width: 30%;
+    height: 60vh;
+    background: whitesmoke;
+    margin-top: -150px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square-one p{
+    margin-top: 50px;
+}
+
+.square-two p{
+    margin-top: 50px;
+}
+
+    
+
+.square-three p{
+    margin-top: 50px;
+}
+
+.square-three{
+    width: 30%;
+    height: 60vh;
+    background: whitesmoke;
+    margin-top: -150px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle-one{
+    width: 200px;
+    height: 200px;
+    background:white;
+    
+    border-radius: 50%;
+    margin-top: 50px;
+  
+    
+   
+}
+
+.circle-one img{
+    width: 100%;
+    height: 100%;
+}
+
+.circle-two{
+
+
+
+    width: 200px;
+    height: 200px;
+    background: white;
+    
+    border-radius: 50%;
+    margin-top: 50px;
+    
+}
+
+.circle-two img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.circle-three{
+
+
+    width: 200px;
+    height: 200px;
+   background: white;
+    
+    border-radius: 50%;
+    margin-top: 50px;
+
+
+}
+
+.circle-three img{
+    width: 100%;
+    height: 100%;
+}
+
+.five-page{
+    width: 100%;
+    height: 100vh;
+    background: blue;
+   
+    display: flex;
+    justify-content: center;
+  
+  
+  
+}
+
+.circle-girl{
+    width: 500px;
+    height: 500px;
+    background: pink;
+    border-radius: 50%;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+
+.circle-girl img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.pentagon{
+    width: 150px;
+    height: 150px;
+    background:orangered;
+    border-radius: 50%;
+    position: absolute;
+   margin-right: 400px;
+   margin-top: -30px;
+  
+    
+   
+   
+    
+
+}
+
+.dv-box{
+    width: 300px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    display: flex;
+ 
+    align-items: center;
+
+   
+    flex-direction: column;
+    
+    row-gap: 50px;
+ 
+ 
+    
+    
+    
+    
+ 
+ 
+  
+
+}
+
+.eight-page{
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+    display: flex;
+    align-items: center;
+    
+}
+
+.straight-line{
+    width: 100%;
+    height: 20vh;
+    background: pink;
+}
+
+.numbers{
+    width: 400px;
+    height: 400px;
+    background: white;
+    
+    position: absolute;
+    left: 500px;
+    z-index: 2;
+  
+ 
+   
+   
+  
+}
+
+.counting{
+    width: 500px;
+    height: 500px;
+    background: blueviolet;
+    position: absolute;
+    left:800px;
+    z-index: 1;
+    display: flex;
+  
+}
+
+.prime{
+    width: 300px;
+    height: 300px;
+    background: red;
+   border-radius: 50%;
+ 
+  
+ 
+ margin-left: -70px;
+ position: absolute;
+ top: 50px ;
+
+ 
+
+  
+}
+
+.prime img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   
+   
+   
+   
+
+
+}
+
+.numbers h1{
+
+    text-align: center;
+
+   
+  
+    
+   
+    
+   
+}
+
+.numbers h3{
+    border-bottom: 2px solid #000;
+    width: 200px;
+}
+
+.numbers button{
+    margin-top: 280px;
+    width: 350px;
+    height: 40px;
+    background: red;
+    border-radius: 0px;
+    margin-left: 20px;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+.four-page{
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.four-page img{
+    width: 100%;
+    height: 100vh;
+}
+
+.four-page h1{
+    font-size: 100px;
+    position: absolute;
+    margin-top: 500px;
+   margin-right:200px;
+   text-transform: capitalize;
+   color: blue;
+   
+    
+  
+}
+
+.four-page h3{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 650px;
+   margin-right: 250px;
+   text-transform: capitalize;
+   color: white;
+}
+
+
+
+
+
